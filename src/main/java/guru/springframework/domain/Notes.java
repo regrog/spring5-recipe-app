@@ -1,4 +1,4 @@
-package guru.framework.spring5recipeapp.domain;
+package guru.springframework.domain;
 
 import javax.persistence.*;
 
@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Notes {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY    )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @OneToOne

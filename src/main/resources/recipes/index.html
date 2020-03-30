@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" th:replace="~{fragments/layout :: layout (~{::body},'vets')}" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Reciper Home</title>
+    <meta charset="UTF-8"/>
+    <title>List of Vets</title>
 </head>
 <body>
-<h1>My Recipes!</h1>
 <!--/*@thymesVar id="vet" type="guru.framework.spring5recipeapp.domain.Recipe"*/-->
+<h2>Recipes</h2>
 
 <table class="table table-striped" id="vets">
     <thead>

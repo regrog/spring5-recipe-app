@@ -1,4 +1,4 @@
-package guru.framework.spring5recipeapp.domain;
+package guru.springframework.domain;
 
 import javax.persistence.*;
 import java.util.Set;
@@ -7,7 +7,7 @@ import java.util.Set;
 public class Category {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY    )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String description;
